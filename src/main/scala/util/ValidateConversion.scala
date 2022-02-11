@@ -17,7 +17,7 @@ class ValidateConversion {
     if(ip.toInt==0)
       return ""
     else if(i!=0)
-      return map.mapUnits(ip(2).toString)+" hundred"
+      return map.mapUnits(ip(2).toString)+" hundred "
     else {
       if((ip(1)+""+ip(0)).toInt==0)
         return map.mapUnits(ip(2).toString)+" hundred"
