@@ -24,7 +24,9 @@ object controllerMain {
       output.append("Undefined")
     }
     else{
-      if(input.toLong<20){
+      if(input.toLong==0)
+        output.append("Zero")
+      else if(input.toLong<20){
         output.append(map.mapUnits(input))
       }
       else{
