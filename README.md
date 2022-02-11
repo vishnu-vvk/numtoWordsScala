@@ -1,4 +1,4 @@
-Convert a given number to Words (American)
+Convert number to Words (American) in Scala
 
 Code consists of completely string operations rather than using division method to extract words from a number.
 
